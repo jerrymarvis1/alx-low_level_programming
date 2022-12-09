@@ -1,10 +1,9 @@
-#include <stdio.h>                                                                                                                                     
-
-/**                                                                                                                                                    
- * main - main block                                                                                                                                   
- * Return: 0 
- */                                                                                                                                                    
-int main(void) 
+#include <stdio.h>
+/**
+ * main - main block
+ * Return: 0
+ */
+int main(void)
 {
 	printf("size of a char: %lu byte(s)\n", sizeof(char));
 	printf("size of an int: %lu byte(s)\n", sizeof(int));
